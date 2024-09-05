@@ -57,6 +57,8 @@ main > h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+    color: #0b9489;
     padding-top: 15px;
 }
 
@@ -98,8 +100,6 @@ aside > h1 {
 aside > h2 {
     text-align: center;
 }
-
-aside
 
 footer {
     background-color: #274450;
