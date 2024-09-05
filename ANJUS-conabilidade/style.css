@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    background-color: #23af69a4;
+}
+
 header {
     background: linear-gradient(to bottom, #23af69a4, #024059);
     padding: 10px;
@@ -14,7 +18,7 @@ header > h1 {
 
 header > h2 {
     color: white;
-    font-size: 14px;
+        font-size: 14px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,18 +63,21 @@ main > h1 {
 main > h2 {
     margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, bisque, #23af69a4);
 }
 
 main > p {
     text-align: justify;
     margin: 16px 16px 16px 16px;
-    text-indent: 20px;
+    text-indent: 2em;
     
 }
 
 ul {
     list-style-type: circle;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
     padding-bottom: 20px; 
 }
 
