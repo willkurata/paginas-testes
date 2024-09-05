@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-:root {
-   
-}
-
 header {
     background: linear-gradient(to bottom, #23af69a4, #024059);
     padding: 10px;
@@ -83,8 +79,8 @@ aside {
     border-radius: 10px;
     margin: 20px;
     text-align: justify;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 1px 20px 10px 20px
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 1px 20px 10px 20px;
 }
 
 aside > h1 {
