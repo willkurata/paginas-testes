@@ -1,14 +1,30 @@
 @charset "UTF-8";
 
+:root {
+    --color0: #DAD2C4;
+    --color1: #F0E7D8;
+    --color2: #B5C5B8;
+    --color3: #79A397;
+    --color4: #3D8177;
+    --color5: #015E56;
+    --color6: #186D65;
+}
+
 body {
-    background-color: #23af69a4;
+    background-color: var(--color6);
 }
 
 header {
-    background: linear-gradient(to bottom, #23af69a4, #024059);
+    background: linear-gradient(to bottom, var(--color3), var(--color6));
     padding: 10px;
     margin: -10px;
-    box-shadow: 1px 5px 12px 1px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 5px 12px 1px rgba(0, 0, 0, 0.39);
+}
+
+picture > img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
 }
 
 header > h1 {
@@ -30,8 +46,8 @@ nav {
 nav > a {
     margin-right: 10px;
     text-decoration: none;
-    color: white;
-    background-color: #024059;
+    color: var(--color6);
+    background-color: var(--color2);
     border-radius: 5px;
     padding: 5px 7px 5px 7px;
 }
@@ -42,7 +58,7 @@ nav > a:hover {
 }
 
 main {
-    background-color: bisque;
+    background-color: var(--color0);
     min-width: 320px;
     max-width: 800px;
     margin: auto;
@@ -61,7 +77,7 @@ main > h1 {
 main > h2 {
     margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, bisque, #23af69a4);
+    background: linear-gradient(to right, var(--color0), var(--color6));
 }
 
 main > p {
@@ -71,8 +87,16 @@ main > p {
 
 }
 
+main > a {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 div.location {
-    background-color: #71CB9E;
+    width: 70%;
+    display: block;
+    margin: auto;
 }
 
 ul {
